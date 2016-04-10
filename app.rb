@@ -8,3 +8,7 @@ set :database, "sqlite3:./database/barbershop.db"
 get '/' do
 	erb :index
 end
+
+get '/about' do
+	erb :about
+end
