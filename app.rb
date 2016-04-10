@@ -6,5 +6,5 @@ require 'sinatra/activerecord'
 set :database, "sqlite3:./database/barbershop.db"
 
 get '/' do
-	erb 'Hello!'
+	erb :index
 end
